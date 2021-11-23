@@ -1,0 +1,113 @@
+body {
+  background-color: azure;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 16px 80px;
+  filter: drop-shadow(0px 5px 7px lightgray);
+}
+
+header .buttons {
+  display: flex;
+  align-items: center;
+}
+
+header .buttons button:not(:last-child) {
+  margin-right: 20px;
+}
+
+.white {
+  background-color: #fffafa;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.colorful {
+  background-color: #f3b758;
+  border: 1px solid #f3b758;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.header_lng_selection {
+  appearance: none;
+  background-color: #f3b758;
+  border: solid #f3b758;
+  border-radius: 50px;
+  padding: 23px;
+}
+
+.p_button_white {
+  background-color: #fffafa;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 3px 15px;
+  font-size: 12px;
+}
+
+.p_button_colorful {
+  background-color: #f3b758;
+  border: 1px solid #f3b758;
+  border-radius: 5px;
+  padding: 3px 15px;
+  font-size: 12px;
+}
+
+main {
+  background-color: rgba(249, 250, 251);
+  font-family: monospace;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 80px;
+}
+
+.aside {
+  padding-right: 20px;
+}
+
+.Primary_Practice_pic {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lng_selection {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.lng_selection button {
+  margin-right: 10px;
+  appearance: none;
+  background-color: #f3b758;
+  border: solid #f3b758;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+button:hover {
+  background: wheat;
+  border-color: tomato;
+}
+
+button:active {
+  background: teal;
+}
+
+button:focus {
+  border-color: tomato;
+}
